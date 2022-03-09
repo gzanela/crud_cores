@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+}
+body, html {
+  background-color: #EBEDEF;
+}
+.btn-acao {
+background: none;
+border: none;
+cursor: pointer;
+padding: 2px;
+}
+
+.btn-acao:focus {outline:0;}
+
+#cor {
+height: 35px;
+/*border: none;*/
+padding: 0;
+background-color: #fff;
+cursor: pointer;
+padding: 0px;
+margin: 0px;
+width: 100px;
+height: 40px;
+}
+#cor:focus{
+box-shadow: 0 0 0 0;
+border: 0 none;
+outline: 0;
+}
+
+.acoes{
+display: inline-block;
+}
+
+.logo{
+width: 113.92px;
+}
+.sideImg{
+text-align: center;
+padding-bottom: 1px;
+padding-top: 4px;
+border-bottom: 0.6px solid #EBEDEF;
+height: 55px;
+}
+
+.sidenav {
+height: 100%;
+width: 255px;
+position: fixed;
+/*z-index: 1;*/
+top: 0;
+left: 0;
+background-color: white;
+overflow-x: hidden;
+border: 1px solid #EBEDEF;
+
+}
+
+.sidenav a {
+padding: 15px 6px 15px 15px;
+text-decoration: none;
+font-size: 15px;
+color: #818181;
+display: block;
+}
+
+.sidenav a:hover {
+color: whitesmoke;
+transition: 0.4s;
+background-color: #064576;
+}
+
+.main {
+  margin-top: 20px;
+  margin-left: 280px; /* mesmo width da sidebar */
+  padding: 20px;
+  border: 0.6px solid #d1d1d1;
+  margin-right: 20px;
+  max-width: 910px;
+
+  }
+
+.userNavName{
+  float: right;
+  padding-right: 15px;
+  line-height: 55px;
+}
+.topnav{
+  height: 56px;
+  border: 1px solid #EBEDEF;
+  background-color: white;
+}
+.div-container{
+  max-width: 850px;
+}
+.text-center{
+  text-align: center;
+}
+.btn-primary{
+  background-color: #064576;
+  border-color: #064576;
+}
+.btn-primary:hover{
+  background-color: #01345b;
+}
+.table, .main{
+  background-color: white;
+}
