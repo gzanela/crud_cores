@@ -29,7 +29,7 @@ if(isset($_POST['submitCriar'])){
 }
 
 if(isset($_POST['submitDeletar']) || isset($_POST['acaoDeletar'])){
-    $model = 'DELETAR';
+    $model = 'USUARIO';
     if(isset($_POST['acaoDeletar'])){
         $id = $_POST['idHidden'];
     }
