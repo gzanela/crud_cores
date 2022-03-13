@@ -10,6 +10,8 @@ class GeralException
 
     public function campoVazio(){
         $this->mensagem = "<div class='alert alert-danger text-center mt-3'>Preencha os dados</div>";
-
+    }
+    public function checkNull(){
+        $this->mensagem = "<div class='alert alert-danger text-center mt-3'>Selecione uma opção</div>";
     }
 }

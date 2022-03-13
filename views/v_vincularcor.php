@@ -1,6 +1,7 @@
 <?php
 require_once '../connection.php';
-include('../models/UsuarioCor.php');
+include_once('../exceptions/GeralException.php');
+include_once('../models/UsuarioCor.php');
 include_once('../controllers/UsuarioCorController.php');
 $id = $_GET['id'];
 $conexao = new Connection();
@@ -60,6 +61,9 @@ $cores = $conexao->query(
                         <td>%s</td>
                     </tr>
                 ", $cor->id, $cor->name, $cor->hex);
+                }
+                if (isset($exception)) {
+                    echo $exception->getMensagem();
                 }
                 ?>
         </div>
