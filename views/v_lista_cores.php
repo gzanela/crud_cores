@@ -52,7 +52,6 @@ $cores = $conexao->query("SELECT * FROM colors");
                                 <button type='submit' name='iconeEditar' class='btn-acao bi bi-pencil-square text-info'></button>
                             </form>
                             <form action='' method='post' class='acoes'>  
-                                <input type='hidden' value='$id' name='userID'>
                                 <input type='hidden' value='$cor->id' name='colorID'>
                                 <button type='submit' name='submitDeletarCor' class='btn-acao bi bi-x-lg text-danger'></button>
                             </form>

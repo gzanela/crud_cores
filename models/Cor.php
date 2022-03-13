@@ -53,15 +53,4 @@ class Cor
         $deletarCor->bindValue(1, $this->getId(), PDO::PARAM_INT);
         $deletarCor->execute();
     }
-    public function buscarCor(){
-        $conn = new Connection();
-        $db = $conn->getConnection();
-        $sql = 'SELECT id, name, hex FROM colors WHERE id = :id';
-        $buscarCor = $db->prepare($sql);
-        $buscarCor->bindValue(1, $this->getId(), PDO::PARAM_INT);
-        $buscarCor->execute();
-        $buscarCor->fetchObject();
-        $this->nome = $buscarCor->name;
-    }
-
 }

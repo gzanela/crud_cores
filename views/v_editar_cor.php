@@ -6,10 +6,6 @@ include_once('../models/Cor.php');
 include_once('../models/Valida.php');
 include_once('../controllers/CorController.php');
 
-$cores = new Cor();
-$cores->setId($_GET['id']);
-$cores->buscarCor();
-
 ?>
 <!doctype html>
 <html lang="en">
