@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f3fc82e-2d1f-4395-a981-677049e7a1f8" name="Changes" comment="" />
+    <list default="true" id="0f3fc82e-2d1f-4395-a981-677049e7a1f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/CorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/CorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UsuarioController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/UsuarioCorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UsuarioCorController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +97,8 @@
       <workItem from="1646847555649" duration="875000" />
       <workItem from="1646848836986" duration="53000" />
       <workItem from="1646848895284" duration="305000" />
+      <workItem from="1646849236238" duration="422000" />
+      <workItem from="1647180086243" duration="231000" />
     </task>
     <servers />
   </component>

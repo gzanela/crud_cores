@@ -1,6 +1,8 @@
 <?php
 if(isset($_POST['vincularCor'])){
-    $userid = $_GET['id'];
+    if(isset($_GET['id'])){
+        $userid = $_GET['id'];
+    };
     $list = $_POST['checkCorVinculo'];
 
     for($i = 0; $i < count($list); $i++){
@@ -13,7 +15,10 @@ if(isset($_POST['vincularCor'])){
 }
 
 if(isset($_POST['submitDesvincularCor'])){
-    $id = $_POST['userID'];
+    if(isset($_POST['userID'])){
+        $id = $_POST['userID'];
+    };
+
     $cor_id = $_POST['colorID'];
 
     $userCor = new UsuarioCor();

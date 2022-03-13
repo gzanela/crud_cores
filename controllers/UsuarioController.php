@@ -1,6 +1,8 @@
 <?php
 
-$id = $_GET['id'];
+if(isset($_GET['id'])){
+    $id = $_GET['id'];
+};
 
 if(isset($_POST['submitCriar'])){
     if(!empty($_POST['nome']) && !empty($_POST['email'])) {

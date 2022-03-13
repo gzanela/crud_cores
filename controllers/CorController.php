@@ -1,5 +1,7 @@
 <?php
-$id = $_GET['id'];
+if(isset($_GET['id'])){
+    $id = $_GET['id'];
+}
 if(isset($_POST['submitEditarCor'])){
     if(!empty($_POST['nomeEditado'])){
         $operacao = 'EDITAR';
